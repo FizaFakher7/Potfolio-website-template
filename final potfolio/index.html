@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiza's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header section starts -->
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="logo">
+            <a href="https://www.linkedin.com/in/fiza-fakher-06405623b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><img src="logo.jpg" alt="logo" />
+              <span class="name">Fiza Fakher</span>
+            </a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills"> Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fa-solid fa-xmark"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header section ends -->
+    <!-- Home section starts -->
+    <section id="home">
+      <div class="parent">
+        <div class="child1">
+          <h3>Hi!! there</h3>
+          <h1>I'm Fiza Fakher</h1>
+          <div class="container">
+            <h1>I'm a <span class="auto-typed"></span></h1>
+          </div>
+          <div class="btn">
+            <a href="#about">About Me </a>
+        <i class="bx bxs-down-arrow-circle"></i>
+          </div>
+          <ul class="social-media">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/fiza-fakher-06405623b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed(".auto-typed", {
+              strings: [
+                "Front end developer",
+                "Programmer",
+                "Full Stack Developer",
+              ],
+              typeSpeed: 150,
+              backSpeed: 150,
+              loop: true,
+            });
+          </script>
+        </div>
+        <div class="child2">
+          <img
+            class="image"
+            src="/images/hero1.png"
+            alt="portfolio image"
+            width="50%"
+          />
+        </div>
+      </div>
+      <script type="text/javascript" src="particles.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+    </section>
+
+    <!-- Home section ends -->
+    <!-- About section start -->
+    <section id="about">
+      <h1><i class="fa-solid fa-user"></i> About <font color="purple">Me</font></h1>
+      <div id="parent">
+        <div id="child">
+          <img src="/images/pic.jpg" alt="Potfolio image" />
+        </div>
+        <div id="child1">
+          <h2>I`m Fiza</h2>
+          <h5>Full Stack developer</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            doloremque, <br />
+            quas distinctio quidem aliquid mollitia minima quibusdam modi
+            pariatur quia<br />
+            Incidunt aperiam minus voluptas cumque non, voluptatibus ipsum
+            asperiores <br />
+            sed libero iusto hic deleniti magnam tempore tenetur? Qui nulla
+            autem quae <br />
+            sed libero iusto hic deleniti magnam tempore
+          </p>
+          <p id="email">
+            <font color="blue">Email: </font>fizafakher62@gmail.com
+          </p>
+          <p id="place"><font color="blue">Place: </font>Lahore,Pakistan</p>
+          <div class="btn-1">Resume ></div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+    <!-- Skills section starts -->
+    <section id="skills">
+      <h1>
+        <i class="fa-solid fa-laptop-code"></i>Skills &
+        <font color=" #fff724">Abilities</font>
+      </h1>
+      <!-- Cards section -->
+      <div class="glass">
+        <div class="box-line">
+          <div class="box">
+            <img src="/images/icons8-html5-48.png" alt="Image 1" />
+            <div class="box-text">Html</div>
+          </div>
+          <div class="box">
+            <img src="/images/icons8-css3-48.png" alt="Image 2" />
+            <div class="box-text">Css</div>
+          </div>
+          <div class="box">
+            <img src="/images/icons8-javascript-48.png" alt="Image 3" />
+            <div class="box-text">Java Script</div>
+          </div>
+        </div>
+        <div class="box-line">
+          <div class="box">
+            <img src="/images/icons8-bootstrap-48.png" alt="Image 4" />
+            <div class="box-text">Bootstrap</div>
+          </div>
+          <div class="box">
+            <img src="/images/icons8-jquery-50.png" alt="Image 5" />
+            <div class="box-text">JQuery</div>
+          </div>
+          <div class="box">
+            <img src="/images/icons8-php-48.png" alt="Image 6" />
+            <div class="box-text">Php</div>
+          </div>
+        </div>
+        <div class="box-line">
+          <div class="box">
+            <img src="/images/icons8-mysql-50.png" alt="Image 7" />
+            <div class="box-text">My Sql</div>
+          </div>
+          <div class="box1">
+            <img src="/images/icons8-laravel-64.png" alt="Image 8" />
+            <div class="box-text">Laravel</div>
+          </div>
+          <div class="box">
+            <img src="/images/icons8-c++-48.png" alt="Image 9" />
+            <div class="box-text">C++</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <!-- Education section starts here -->
+    <section id="education">
+      <h1><i class="fa-solid fa-graduation-cap"></i> My Education</h1>
+      <p>
+        Education Is Not The Learning Of Facts, But The Training Of The Mind To
+        Think.
+      </p>
+      <div id="uni">
+        <h2>Bachelor of Science in Computer Science</h2>
+        <p>
+          <font color="black">Government College University Faisalabad</font>
+        </p>
+        <h3><font color="green">2022-2026 | Doing</font></h3>
+      </div>
+      <div id="clg">
+        <h2>BISE Punjab | ICS</h2>
+        <p><font color="black">Govt Degree College For Women</font></p>
+        <h3><font color="green">2020-2022 | Completed</font></h3>
+      </div>
+    </section>
+    <!-- education section ends here -->
+    <!-- work section starts here -->
+    <section id="work">
+      <h1 id="heading">
+        <i class="fa-solid fa-laptop-code"></i>Projects
+        <font color="yellow">Made</font>
+      </h1>
+      <div class="wrapper">
+        <div class="card1">
+          <img src="/images/weather.png" alt="" />
+          <div class="info">
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
+              rerum.
+            </p>
+            <a
+              href="https://666b02aac5526d4035c5c233--quiet-wisp-bf86b3.netlify.app/"
+              target="_blank"
+              class="btn-2"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card1">
+          <img
+            src="/images/ox game offline – play O X APK Download.jpg"
+            alt=""
+          />
+          <div class="info">
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
+              rerum.
+            </p>
+            <a
+              href="https://666afdcd1733a439f24dbb3c--majestic-chebakia-1cbf20.netlify.app/"
+              target="_blank"
+              class="btn-2"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card1">
+          <img src="/images/website.jpg" alt="" />
+          <div class="info">
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
+              rerum.
+            </p>
+            <a
+              href="https://666b01d972ba0f4063f4c5aa--sprightly-rugelach-4b662c.netlify.app/"
+              target="_blank"
+              class="btn-2"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work section ends here -->
+     <!-- experience section starts here -->
+      <section id="experience">
+       <h1> <i class="fa-solid fa-briefcase"></i>Experience</h1>
+      <div class="timeline">
+        <div class="container1 left-container">
+          <div class="text-box">
+            <h2>Alphabet Inc</h2>
+            <small>Apr 2024 - May 2024</small>
+  
+          </div>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="container1 right-container">
+          <div class="text-box">
+            <h2>Alphabet Inc</h2>
+            <small>Apr 2024 - May 2024</small>
+  
+          </div>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="container1 left-container">
+          <div class="text-box">
+            <h2>Alphabet Inc</h2>
+            <small>Apr 2024 - May 2024</small>
+  
+          </div>
+        </div>
+      </div>
+      
+      </section>
+      <!-- experience section ends here -->
+       <!-- Contact us section start -->
+       <section id="contact">
+        <h1 id="head">
+            <i class='bx bx-headphone'></i> Get in 
+            <font color="purple">Touch</font>
+        </h1>
+        <div class="item">
+            <div class="contact">
+                <div class="first-text">Let's Get in Touch</div>
+                <img src="/images/contact1.png" alt="" id="iamge1">
+                <div class="social-links">
+                    <span class="second-text">Connect with us:</span>
+                    <ul class="social-media1">
+                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/fiza-fakher-06405623b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-github'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text">Contact Us</h4>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" class="input" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="input" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" class="input" required>
+                        <label>Phone</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="" id="message" cols="30" rows="10" class="input" required></textarea>
+                        <label>Message</label>
+                    </div>
+
+                      <button type="submit" id="btn-3">
+                          Submit <i class="fa-solid fa-paper-plane"></i>
+                      </button>
+                  
+                </form>
+            </div>
+        </div>
+    </section>
+          <!-- contact us section ends -->
+    <!-- Footer section starts here -->
+     <section id="footer"></section>
+    <div class="container2">
+        <div class="footer-content">
+            <h5 id="footer-h3">Fiza's Portfolio</h5>
+            <p>Thank you for visiting my personal portfolio website. <br> Connect with me over socials.
+            </p>
+            <p>Keep Rising 🚀. Connect with me over live chat!</p>
+        </div>
+        <div class="footer-content">
+            <h3 id="footer-h3">Quick Links</h3>
+            <ul class="list">
+                <li><a href="index.html"><i class="fas fa-chevron-circle-right"></i>Home</a></li>
+                <li><a href="#about"><i class="fas fa-chevron-circle-right"></i>About</a></li>
+                <li><a href="#services"><i class="fas fa-chevron-circle-right"></i>Services</a></li>
+                <li><a href="#project"><i class="fas fa-chevron-circle-right"></i>Project</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-circle-right"></i>Contact</a></li>
+        </ul>
+        </div>
+        <div class="footer-conatiner">
+            <h3 id="footer-h3">Contact Info</h3>
+            <p> <i class="fas fa-phone"></i> +92 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-envelope"></i> fizafakher62@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i> Lahore,Pakistan</p>
+          
+            <div class="social-icons">
+            <li><a href=""><i class='bx bxl-facebook' ></i></a></li>
+            <li><a href=""></a><i class='bx bxl-linkedin'></i></li>
+            <li><a href=""></a><i class='bx bxl-instagram'></i></li>
+            <li><a href=""><i class='bx bxl-linkedin'></i></a></li>
+        </div>
+        </div>
+       
+    </div> <hr>
+    <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1> -->
+
+  </section>
+<!-- footer ends here -->
+  </body>
+</html>
